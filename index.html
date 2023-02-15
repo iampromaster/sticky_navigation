@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="header">
+    <nav id="navbar">
+      <img src="./images/logo.png" class="logo" alt="">
+      <ul id="menu">
+        <li>HOME</li>
+        <li>ABOUT</li>
+        <li>SERVICES</li>
+        <li>PRODUCT</li>
+        <li>CONTACT</li>
+      </ul>
+    </nav>
+  </div>
+  <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo consectetur non, asperiores tenetur earum quae et rerum possimus nisi vel veniam distinctio pariatur ipsa ratione reprehenderit excepturi minus exercitationem atque?</p>
+
+  <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo consectetur non, asperiores tenetur earum quae et rerum possimus nisi vel veniam distinctio pariatur ipsa ratione reprehenderit excepturi minus exercitationem atque?</p>
+
+  <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo consectetur non, asperiores tenetur earum quae et rerum possimus nisi vel veniam distinctio pariatur ipsa ratione reprehenderit excepturi minus exercitationem atque?</p>
+
+  <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo consectetur non, asperiores tenetur earum quae et rerum possimus nisi vel veniam distinctio pariatur ipsa ratione reprehenderit excepturi minus exercitationem atque?</p>
+
+  <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo consectetur non, asperiores tenetur earum quae et rerum possimus nisi vel veniam distinctio pariatur ipsa ratione reprehenderit excepturi minus exercitationem atque?</p>
+
+  <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo consectetur non, asperiores tenetur earum quae et rerum possimus nisi vel veniam distinctio pariatur ipsa ratione reprehenderit excepturi minus exercitationem atque?</p>
+
+  <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo consectetur non, asperiores tenetur earum quae et rerum possimus nisi vel veniam distinctio pariatur ipsa ratione reprehenderit excepturi minus exercitationem atque?</p>
+  
+  <script>
+    let navbar = document.getElementById("navbar");
+    let menu = document.getElementById("menu");
+
+    window.onscroll = function(){
+      if(window.pageYOffset >= menu.offsetTop){
+        navbar.classList.add("sticky");
+      }else {
+        navbar.classList.remove("sticky");
+      }
+    }
+
+  </script>
+
+</body>
+</html>
